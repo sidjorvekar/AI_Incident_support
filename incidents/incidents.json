@@ -1,0 +1,1072 @@
+[
+  {
+    "timestamp": "2026-05-11T20:52:30.432947",
+    "pod": "my-app-99f98ddb4-49m5f",
+    "status": "Running",
+    "restart_count": 1,
+    "reason": "Unknown issue detected",
+    "logs": "/docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration\n/docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/\n/docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh\n10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf\n10-listen-on-ipv6-by-default.sh: info: Enabled listen on IPv6 in /etc/nginx/conf.d/default.conf\n/docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh\n/docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh\n/docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh\n/docker-entrypoint.sh: Configuration complete; ready for start up\n2026/05/11 15:48:23 [notice] 1#1: using the \"epoll\" event method\n2026/05/11 15:48:23 [notice] 1#1: nginx/1.29.8\n2026/05/11 15:48:23 [notice] 1#1: built by gcc 14.2.0 (Debian 14.2.0-19) \n2026/05/11 15:48:23 [notice] 1#1: OS: Linux 6.6.87.2-microsoft-standard-WSL2\n2026/05/11 15:48:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576\n2026/05/11 15:48:23 [notice] 1#1: start worker processes\n2026/05/11 15:48:23 [notice] 1#1: start worker process 30\n2026/05/11 15:48:23 [notice] 1#1: start worker process 31\n2026/05/11 15:48:23 [notice] 1#1: start worker process 32\n2026/05/11 15:48:23 [notice] 1#1: start worker process 33\n"
+  },
+  {
+    "timestamp": "2026-05-11T21:03:15.904097+00:00",
+    "pod": "my-app-99f98ddb4-49m5f",
+    "status": "Running",
+    "restart_count": 2,
+    "reason": "Unknown Kubernetes issue",
+    "logs": "/docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration\n/docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/\n/docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh\n10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf\n10-listen-on-ipv6-by-default.sh: info: Enabled listen on IPv6 in /etc/nginx/conf.d/default.conf\n/docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh\n/docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh\n/docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh\n/docker-entrypoint.sh: Configuration complete; ready for start up\n2026/05/11 20:56:41 [notice] 1#1: using the \"epoll\" event method\n2026/05/11 20:56:41 [notice] 1#1: nginx/1.29.8\n2026/05/11 20:56:41 [notice] 1#1: built by gcc 14.2.0 (Debian 14.2.0-19) \n2026/05/11 20:56:41 [notice] 1#1: OS: Linux 6.6.87.2-microsoft-standard-WSL2\n2026/05/11 20:56:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576\n2026/05/11 20:56:41 [notice] 1#1: start worker processes\n2026/05/11 20:56:41 [notice] 1#1: start worker process 28\n2026/05/11 20:56:41 [notice] 1#1: start worker process 29\n2026/05/11 20:56:41 [notice] 1#1: start worker process 30\n2026/05/11 20:56:41 [notice] 1#1: start worker process 31\n"
+  },
+  {
+    "timestamp": "2026-05-11T21:04:05.468581+00:00",
+    "pod": "my-app-99f98ddb4-49m5f",
+    "status": "Running",
+    "restart_count": 3,
+    "reason": "Unknown Kubernetes issue",
+    "logs": "/docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration\n/docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/\n/docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh\n10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf\n10-listen-on-ipv6-by-default.sh: info: Enabled listen on IPv6 in /etc/nginx/conf.d/default.conf\n/docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh\n/docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh\n/docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh\n/docker-entrypoint.sh: Configuration complete; ready for start up\n2026/05/11 21:04:03 [notice] 1#1: using the \"epoll\" event method\n2026/05/11 21:04:03 [notice] 1#1: nginx/1.29.8\n2026/05/11 21:04:03 [notice] 1#1: built by gcc 14.2.0 (Debian 14.2.0-19) \n2026/05/11 21:04:03 [notice] 1#1: OS: Linux 6.6.87.2-microsoft-standard-WSL2\n2026/05/11 21:04:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576\n2026/05/11 21:04:03 [notice] 1#1: start worker processes\n2026/05/11 21:04:03 [notice] 1#1: start worker process 29\n2026/05/11 21:04:03 [notice] 1#1: start worker process 30\n2026/05/11 21:04:03 [notice] 1#1: start worker process 31\n2026/05/11 21:04:03 [notice] 1#1: start worker process 32\n"
+  },
+  {
+    "timestamp": "2026-05-11T21:36:40.926013+00:00",
+    "pod": "my-app-99f98ddb4-49m5f",
+    "status": "Running",
+    "restart_count": 3,
+    "cause": "Unknown issue",
+    "impact": "Application instability",
+    "fix": "Check pod logs manually",
+    "logs": "/docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration\n/docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/\n/docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh\n10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf\n10-listen-on-ipv6-by-default.sh: info: Enabled listen on IPv6 in /etc/nginx/conf.d/default.conf\n/docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh\n/docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh\n/docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh\n/docker-entrypoint.sh: Configuration complete; ready for start up\n2026/05/11 21:04:03 [notice] 1#1: using the \"epoll\" event method\n2026/05/11 21:04:03 [notice] 1#1: nginx/1.29.8\n2026/05/11 21:04:03 [notice] 1#1: built by gcc 14.2.0 (Debian 14.2.0-19) \n2026/05/11 21:04:03 [notice] 1#1: OS: Linux 6.6.87.2-microsoft-standard-WSL2\n2026/05/11 21:04:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576\n2026/05/11 21:04:03 [notice] 1#1: start worker processes\n2026/05/11 21:04:03 [notice] 1#1: start worker process 29\n2026/05/11 21:04:03 [notice] 1#1: start worker process 30\n2026/05/11 21:04:03 [notice] 1#1: start worker process 31\n2026/05/11 21:04:03 [notice] 1#1: start worker process 32\n"
+  },
+  {
+    "timestamp": "2026-05-11T21:39:14.325589+00:00",
+    "pod": "my-app-99f98ddb4-mxwhz",
+    "status": "Pending",
+    "restart_count": 0,
+    "cause": "Unknown issue",
+    "impact": "Application instability",
+    "fix": "Check pod logs manually",
+    "logs": "Unable to fetch logs: (400)\nReason: Bad Request\nHTTP response headers: HTTPHeaderDict({'Audit-Id': '68facec5-e3c9-480a-ab4a-a2a174639604', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'Date': 'Mon, 11 May 2026 21:39:14 GMT', 'Content-Length': '208'})\nHTTP response body: {\"kind\":\"Status\",\"apiVersion\":\"v1\",\"metadata\":{},\"status\":\"Failure\",\"message\":\"container \\\"my-app\\\" in pod \\\"my-app-99f98ddb4-mxwhz\\\" is waiting to start: ContainerCreating\",\"reason\":\"BadRequest\",\"code\":400}\n\n"
+  },
+  {
+    "timestamp": "2026-05-12T08:39:09.046405+00:00",
+    "pod": "loki-0",
+    "status": "Running",
+    "restart_count": 1,
+    "pod_reason": "",
+    "events": "Normal - Scheduled - Successfully assigned default/loki-0 to minikube\nNormal - Pulling - Pulling image \"grafana/loki:2.6.1\"\nNormal - Pulled - Successfully pulled image \"grafana/loki:2.6.1\" in 7.533s (28.948s including waiting). Image size: 61847961 bytes.\nNormal - Created - Created container: loki\nNormal - Started - Started container loki\nWarning - Unhealthy - Liveness probe failed: HTTP probe failed with statuscode: 503\nWarning - Unhealthy - Readiness probe failed: HTTP probe failed with statuscode: 503\nWarning - Unhealthy - Readiness probe failed: Get \"http://10.244.0.22:3100/ready\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)\nWarning - Unhealthy - Liveness probe failed: Get \"http://10.244.0.22:3100/ready\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)\nNormal - Killing - Container loki failed liveness probe, will be restarted\nNormal - Pulled - Container image \"grafana/loki:2.6.1\" already present on machine",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T08:39:10.655725+00:00",
+    "pod": "prometheus-kube-prometheus-operator-56648b589d-dqfqd",
+    "status": "Running",
+    "restart_count": 1,
+    "pod_reason": "",
+    "events": "Normal - Created - Created container: kube-prometheus-stack\nNormal - Started - Started container kube-prometheus-stack\nWarning - Unhealthy - Readiness probe failed: Get \"https://10.244.0.14:10250/healthz\": dial tcp 10.244.0.14:10250: connect: connection refused\nWarning - Unhealthy - Liveness probe failed: Get \"https://10.244.0.14:10250/healthz\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)\nWarning - Unhealthy - Liveness probe failed: Get \"https://10.244.0.14:10250/healthz\": context deadline exceeded\nWarning - Unhealthy - Readiness probe failed: Get \"https://10.244.0.14:10250/healthz\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)\nNormal - Killing - Container kube-prometheus-stack failed liveness probe, will be restarted\nWarning - Unhealthy - Readiness probe failed: Get \"https://10.244.0.14:10250/healthz\": EOF\nNormal - Pulled - Container image \"quay.io/prometheus-operator/prometheus-operator:v0.90.1\" already present on machine\nWarning - Unhealthy - Liveness probe failed: Get \"https://10.244.0.14:10250/healthz\": dial tcp 10.244.0.14:10250: connect: connection refused",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T08:41:02.631524+00:00",
+    "pod": "my-app-99f98ddb4-6l855",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ContainerCreating",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-99f98ddb4-6l855 to minikube\nNormal - Pulling - Pulling image \"nginx\"",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.6 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:53:03.439776+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ErrImagePull",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.6 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:53:10.634425+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ErrImagePull",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.4 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:53:17.513625+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ErrImagePull",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:53:25.736115+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.4 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:53:34.820468+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ErrImagePull",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.3 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:53:42.867069+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ErrImagePull",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.3 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:53:50.327461+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:53:57.592439+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:54:04.452583+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ErrImagePull",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.4 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:54:11.685646+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ErrImagePull",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.4 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:54:21.057442+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.3 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:54:30.762425+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.1 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:54:40.087486+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:54:47.087875+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ErrImagePull",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.6 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:54:53.784711+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ErrImagePull",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:55:02.384149+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.9 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:55:09.116714+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:55:16.010737+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:55:23.892436+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.4 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:55:31.045651+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:55:38.133515+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:55:45.870861+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:55:54.450668+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.0 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:56:02.051182+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.0 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:56:10.127285+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:56:17.980555+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ErrImagePull",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.3 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:56:25.788369+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:56:33.548848+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:56:41.382765+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.1 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:56:48.486140+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:56:56.292947+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:57:03.565293+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.4 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:57:10.564238+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.3 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:57:17.409431+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.6 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:57:24.503317+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.3 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:57:34.174015+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.4 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:57:42.646479+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:57:51.368027+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.0 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:58:02.575146+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.0 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:58:15.792948+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.4 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:58:23.661067+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:58:31.945277+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.0 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:58:38.957288+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (886.8 MiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:58:45.941331+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (911.5 MiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:59:07.771584+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.3 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:59:30.591469+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.6 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:59:47.138745+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T09:59:58.076713+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.0 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:00:00.742131+00:00",
+    "pod": "prometheus-kube-prometheus-operator-56648b589d-dqfqd",
+    "status": "Running",
+    "restart_count": 2,
+    "pod_reason": "",
+    "events": "Normal - Created - Created container: kube-prometheus-stack\nNormal - Started - Started container kube-prometheus-stack\nWarning - Unhealthy - Readiness probe failed: Get \"https://10.244.0.14:10250/healthz\": dial tcp 10.244.0.14:10250: connect: connection refused\nWarning - Unhealthy - Liveness probe failed: Get \"https://10.244.0.14:10250/healthz\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)\nWarning - Unhealthy - Readiness probe failed: Get \"https://10.244.0.14:10250/healthz\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)\nNormal - Killing - Container kube-prometheus-stack failed liveness probe, will be restarted\nNormal - Pulled - Container image \"quay.io/prometheus-operator/prometheus-operator:v0.90.1\" already present on machine\nWarning - Unhealthy - Liveness probe failed: Get \"https://10.244.0.14:10250/healthz\": dial tcp 10.244.0.14:10250: connect: connection refused\nWarning - Unhealthy - Readiness probe failed: Get \"https://10.244.0.14:10250/healthz\": context deadline exceeded",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (879.5 MiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:00:08.792812+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.1 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:00:24.344754+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.8 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:00:44.082382+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.6 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:01:03.458959+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.4 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:01:24.489623+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.3 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:01:52.859563+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:02:13.749774+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:02:32.675642+00:00",
+    "pod": "loki-0",
+    "status": "Running",
+    "restart_count": 2,
+    "pod_reason": "",
+    "events": "Normal - Created - Created container: loki\nNormal - Started - Started container loki\nWarning - Unhealthy - Readiness probe failed: Get \"http://10.244.0.22:3100/ready\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)\nWarning - Unhealthy - Liveness probe failed: Get \"http://10.244.0.22:3100/ready\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)\nNormal - Killing - Container loki failed liveness probe, will be restarted\nNormal - Pulled - Container image \"grafana/loki:2.6.1\" already present on machine\nWarning - Unhealthy - Readiness probe failed: Get \"http://10.244.0.22:3100/ready\": dial tcp 10.244.0.22:3100: connect: connection refused",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.1 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:02:34.202818+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.1 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:02:35.759495+00:00",
+    "pod": "prometheus-kube-prometheus-operator-56648b589d-dqfqd",
+    "status": "Running",
+    "restart_count": 3,
+    "pod_reason": "",
+    "events": "Normal - Created - Created container: kube-prometheus-stack\nNormal - Started - Started container kube-prometheus-stack\nWarning - Unhealthy - Readiness probe failed: Get \"https://10.244.0.14:10250/healthz\": dial tcp 10.244.0.14:10250: connect: connection refused\nWarning - Unhealthy - Liveness probe failed: Get \"https://10.244.0.14:10250/healthz\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)\nWarning - Unhealthy - Readiness probe failed: Get \"https://10.244.0.14:10250/healthz\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)\nNormal - Killing - Container kube-prometheus-stack failed liveness probe, will be restarted\nNormal - Pulled - Container image \"quay.io/prometheus-operator/prometheus-operator:v0.90.1\" already present on machine\nWarning - Unhealthy - Liveness probe failed: Get \"https://10.244.0.14:10250/healthz\": dial tcp 10.244.0.14:10250: connect: connection refused\nWarning - Unhealthy - Readiness probe failed: Get \"https://10.244.0.14:10250/healthz\": context deadline exceeded\nWarning - Unhealthy - Readiness probe failed: Get \"https://10.244.0.14:10250/healthz\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)\nWarning - Unhealthy - Readiness probe failed: Get \"https://10.244.0.14:10250/healthz\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)\nWarning - Unhealthy - Liveness probe failed: Get \"https://10.244.0.14:10250/healthz\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.1 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:02:55.659477+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.4 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:03:15.448616+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.1 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:03:34.415624+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.1 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:03:54.991571+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (1.9 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:04:14.268348+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:04:34.350528+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ErrImagePull",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:04:53.273555+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.6 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:05:12.198007+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.6 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:05:31.919737+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.4 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:05:50.805625+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:06:11.476838+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.0 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:06:36.223061+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.8 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:06:55.811880+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:07:15.078595+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:07:37.042380+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.0 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:07:59.003029+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.9 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:08:19.066302+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.0 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:08:38.609656+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.1 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:09:01.666689+00:00",
+    "pod": "loki-0",
+    "status": "Running",
+    "restart_count": 3,
+    "pod_reason": "",
+    "events": "Normal - Created - Created container: loki\nNormal - Started - Started container loki\nWarning - Unhealthy - Liveness probe failed: HTTP probe failed with statuscode: 503\nWarning - Unhealthy - Readiness probe failed: HTTP probe failed with statuscode: 503\nWarning - Unhealthy - Readiness probe failed: Get \"http://10.244.0.22:3100/ready\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)\nWarning - Unhealthy - Liveness probe failed: Get \"http://10.244.0.22:3100/ready\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)\nNormal - Killing - Container loki failed liveness probe, will be restarted\nNormal - Pulled - Container image \"grafana/loki:2.6.1\" already present on machine\nWarning - Unhealthy - Readiness probe failed: Get \"http://10.244.0.22:3100/ready\": dial tcp 10.244.0.22:3100: connect: connection refused",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.7 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:09:03.379426+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.9 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:09:04.994122+00:00",
+    "pod": "prometheus-kube-prometheus-operator-56648b589d-dqfqd",
+    "status": "Running",
+    "restart_count": 4,
+    "pod_reason": "",
+    "events": "Normal - Created - Created container: kube-prometheus-stack\nNormal - Started - Started container kube-prometheus-stack\nWarning - Unhealthy - Readiness probe failed: Get \"https://10.244.0.14:10250/healthz\": dial tcp 10.244.0.14:10250: connect: connection refused\nWarning - Unhealthy - Liveness probe failed: Get \"https://10.244.0.14:10250/healthz\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)\nWarning - Unhealthy - Readiness probe failed: Get \"https://10.244.0.14:10250/healthz\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)\nNormal - Killing - Container kube-prometheus-stack failed liveness probe, will be restarted\nNormal - Pulled - Container image \"quay.io/prometheus-operator/prometheus-operator:v0.90.1\" already present on machine\nWarning - Unhealthy - Liveness probe failed: Get \"https://10.244.0.14:10250/healthz\": dial tcp 10.244.0.14:10250: connect: connection refused\nWarning - Unhealthy - Readiness probe failed: Get \"https://10.244.0.14:10250/healthz\": context deadline exceeded\nWarning - Unhealthy - Readiness probe failed: Get \"https://10.244.0.14:10250/healthz\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)\nWarning - Unhealthy - Readiness probe failed: Get \"https://10.244.0.14:10250/healthz\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)\nWarning - Unhealthy - Liveness probe failed: Get \"https://10.244.0.14:10250/healthz\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.9 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:09:06.617131+00:00",
+    "pod": "prometheus-kube-state-metrics-85d6c759df-hsprh",
+    "status": "Running",
+    "restart_count": 1,
+    "pod_reason": "",
+    "events": "Normal - Created - Created container: kube-state-metrics\nNormal - Started - Started container kube-state-metrics\nWarning - Unhealthy - Liveness probe failed: Get \"http://10.244.0.13:8080/livez\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)\nWarning - Unhealthy - Readiness probe failed: Get \"http://10.244.0.13:8081/readyz\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)\nNormal - Killing - Container kube-state-metrics failed liveness probe, will be restarted\nWarning - Unhealthy - Readiness probe failed: Get \"http://10.244.0.13:8081/readyz\": read tcp 10.244.0.1:36692->10.244.0.13:8081: read: connection reset by peer\nNormal - Pulled - Container image \"registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.18.0\" already present on machine\nWarning - Unhealthy - Readiness probe failed: Get \"http://10.244.0.13:8081/readyz\": dial tcp 10.244.0.13:8081: connect: connection refused\nWarning - Unhealthy - Liveness probe failed: Get \"http://10.244.0.13:8080/livez\": dial tcp 10.244.0.13:8080: connect: connection refused",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.8 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:09:09.163954+00:00",
+    "pod": "prometheus-prometheus-node-exporter-5x85k",
+    "status": "Running",
+    "restart_count": 1,
+    "pod_reason": "",
+    "events": "Normal - Created - Created container: node-exporter\nNormal - Started - Started container node-exporter\nWarning - Unhealthy - Readiness probe failed: Get \"http://192.168.49.2:9100/\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)\nWarning - Unhealthy - Liveness probe failed: Get \"http://192.168.49.2:9100/\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)\nNormal - Killing - Container node-exporter failed liveness probe, will be restarted\nNormal - Pulled - Container image \"quay.io/prometheus/node-exporter:v1.11.1-distroless\" already present on machine\nWarning - Unhealthy - Readiness probe failed: Get \"http://192.168.49.2:9100/\": dial tcp 192.168.49.2:9100: connect: connection refused",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.8 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:09:28.015196+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.3 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:09:47.801167+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ErrImagePull",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.6 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:10:06.504781+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.6 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:10:25.571973+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.4 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:10:45.327272+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:11:04.277378+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.4 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:11:23.339126+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:11:42.152800+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:12:01.027946+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.4 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:12:19.958600+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.7 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:12:39.098700+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.7 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:12:57.879661+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (3.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:13:16.659845+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (3.1 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:13:35.570249+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.9 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:13:54.338027+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:14:13.213164+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.4 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:14:32.307601+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.3 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:14:51.167360+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ErrImagePull",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.9 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:15:10.250665+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.3 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:15:29.222880+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.5 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:15:48.197184+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.6 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:16:08.019742+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.3 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:16:27.964914+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.2 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:16:47.303402+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (3.0 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:17:06.285701+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.4 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:17:26.348837+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.3 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:17:46.178204+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (3.1 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:18:05.789082+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.6 GiB) (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-12T10:18:25.529916+00:00",
+    "pod": "my-app-8454596bb9-2zj5w",
+    "status": "Pending",
+    "restart_count": 0,
+    "pod_reason": "ImagePullBackOff",
+    "events": "Normal - Scheduled - Successfully assigned default/my-app-8454596bb9-2zj5w to minikube\nNormal - Pulling - Pulling image \"nginx:wrongtag\"\nWarning - Failed - Failed to pull image \"nginx:wrongtag\": Error response from daemon: manifest for nginx:wrongtag not found: manifest unknown: manifest unknown\nWarning - Failed - Error: ErrImagePull\nNormal - BackOff - Back-off pulling image \"nginx:wrongtag\"\nWarning - Failed - Error: ImagePullBackOff",
+    "ai_analysis": "AI Analysis Failed: model requires more system memory (3.5 GiB) than is available (2.5 GiB) (status code: 500)"
+  }
+]

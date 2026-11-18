@@ -1,0 +1,53 @@
+from kubernetes import client, config
+import time
+import subprocess
+
+from ai_engine import analyze_logs
+from emailer import send_email
+from incident_store import save_incident
+
+config.load_kube_config()
+
+v1 = client.CoreV1Api()
+
+checked = set()
+
+while True:
+
+    pods = v1.list_pod_for_all_namespaces(watch=False)
+
+    for pod in pods.items:
+
+        name = pod.metadata.name
+        namespace = pod.metadata.namespace
+
+        status = pod.status.phase
+
+        if status != "Running":
+
+            key = f"{namespace}-{name}"
+
+            if key not in checked:
+
+                checked.add(key)
+
+                print(f"Incident detected: {name}")
+
+                logs = subprocess.getoutput(
+                    f"kubectl logs {name} -n {namespace}"
+                )
+
+                analysis = analyze_logs(logs)
+
+                incident = {
+                    "pod": name,
+                    "namespace": namespace,
+                    "status": status,
+                    "analysis": analysis
+                }
+
+                save_incident(incident)
+
+                send_email(analysis)
+
+    time.sleep(30)

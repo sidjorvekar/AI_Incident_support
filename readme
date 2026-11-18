@@ -1,0 +1,376 @@
+Imagine Kubernetes clusters behaving like a group of over-caffeinated interns in production—pods randomly disappearing, memory usage spiking at the worst possible time, and someone always saying “it worked on my machine.”
+
+Now imagine an AI system that doesn’t panic… but calmly investigates, diagnoses, and even emails you before your coffee gets cold.
+
+That’s exactly what this project is: a smart, self-aware-ish Kubernetes monitoring and incident management platform powered by AI (because humans deserve sleep too).
+
+🧠 Project Description (Detailed)
+
+The AI-Powered Kubernetes AIOps Platform is an intelligent observability and automation system designed to monitor Kubernetes clusters in real time, detect anomalies, and assist in incident resolution using AI-driven insights.
+
+It acts like a Level-1 support engineer that never takes lunch breaks, never complains, and somehow always knows which pod is misbehaving.
+
+🔍 Core Capabilities
+1. Real-Time Kubernetes Monitoring
+Continuously tracks cluster health (pods, nodes, deployments, services)
+Detects abnormal behavior such as:
+CrashLoopBackOff loops
+Pod evictions
+Resource spikes (CPU, memory)
+
+Basically: it watches your cluster so you don’t have to refresh kubectl get pods every 10 seconds 😄
+
+2. AI-Based Incident Detection & Classification
+
+Automatically identifies incidents and classifies severity:
+🟢 Info (everything is fine… probably)
+🟡 Warning (your cluster is “thinking about it”)
+🔴 Critical (your service is currently on fire 🔥)
+Uses rule-based + AI-assisted logic to reduce false alarms
+
+3. Intelligent Root Cause Analysis (RCA)
+AI analyzes logs, events, and metrics
+Suggests likely root causes like:
+“Memory leak in service X”
+“Deployment rollback needed”
+“Someone forgot a semicolon again”
+
+Think of it as: Sherlock Holmes, but for Kubernetes clusters.
+
+4. Automated Ticketing System
+Generates incident tickets automatically when issues occur
+Sends structured alerts via:
+Email 📧
+Dashboard notifications 📊
+No more “Hey team, is prod down?” Slack chaos
+
+5. AI-Powered Recommendations
+Suggests fixes like:
+Restart pod
+Increase replica count
+Adjust resource limits
+
+Sometimes politely implies: “maybe don’t deploy on Friday evening”
+
+6. Dashboard Visualization
+Live cluster health dashboard
+Incident timeline tracking
+Pod status overview
+
+Basically your Kubernetes “mission control center”
+
+7. Automation & Self-Healing (Optional Advanced Feature)
+Can auto-resolve simple issues:
+Restart crashed pods
+Scale deployments
+Clear stuck resources
+
+It’s like giving Kubernetes a “first aid kit and common sense.”
+
+😂 Why This Project is Fun
+
+Because instead of:
+
+“Why is production down again?”
+
+You get:
+
+“I analyzed your cluster. The issue is caused by a pod named payment-service-7d9f that is emotionally unstable. I’ve restarted it. You’re welcome.”
+
+🎯 End Goal
+
+To reduce manual monitoring effort, improve incident response time, and bring AI-assisted sanity into Kubernetes operations—so engineers can focus on building features instead of chasing ghost pods at 2 AM.
+
+- Kubernetes pod monitoring
+- AI root cause analysis
+- Prometheus metrics
+- Grafana dashboards
+- Loki centralized logging
+- RAG-based incident memory
+- Auto-remediation
+- Email alerts
+- Ollama/OpenAI integration
+
+This project simulates a mini enterprise AIOps platform similar to Datadog, Dynatrace, and Splunk.
+
+Architecture Diagram
+
+Use markdown:
+
+Kubernetes Cluster
+       ↓
+Prometheus → metrics
+       ↓
+Loki → centralized logs
+       ↓
+Grafana → dashboards
+       ↓
+Python AI Monitor
+       ↓
+RAG Engine (ChromaDB)
+       ↓
+Ollama/OpenAI
+       ↓
+Root Cause Analysis
+       ↓
+Email Alerts + Auto Remediation
+
+Features
+## Features
+
+- Real-time Kubernetes pod monitoring
+- CrashLoopBackOff detection
+- ImagePullBackOff detection
+- AI-powered incident analysis
+- Prometheus metrics integration
+- Grafana visualization
+- Loki centralized logging
+- RAG-based historical memory
+- Email notifications
+- Auto-remediation engine
+- Incident storage and tracking
+
+5. Tech Stack
+## Tech Stack
+
+| Component | Technology |
+|---|---|
+| Container Orchestration | Kubernetes |
+| Local Cluster | Minikube |
+| Monitoring | Prometheus |
+| Dashboards | Grafana |
+| Logging | Loki |
+| AI Engine | Ollama |
+| LLM | phi3:mini |
+| Vector DB | ChromaDB |
+| Embeddings | sentence-transformers |
+| Backend | Python |
+
+Folder Structure
+
+AI_support/
+│
+├── monitor.py
+├── rag_engine.py
+├── prometheus_client.py
+├── remediation.py
+├── incidents/
+│   └── incidents.json
+├── chroma_db/
+├── logs/
+└── requirements.txt
+
+Prerequisites
+## Prerequisites
+
+Install the following before starting:
+
+- Python 3.11 recommended
+- Docker Desktop
+- Minikube
+- kubectl
+- Helm
+- Ollama
+
+Install Minikube
+## Step 1 — Start Kubernetes Cluster
+
+```bash
+minikube start
+```
+
+Verify:
+
+```bash
+kubectl get nodes
+```
+
+Enable Metrics Server
+## Step 2 — Enable Metrics Server
+
+```bash
+minikube addons enable metrics-server
+```
+
+Verify:
+
+```bash
+kubectl top pods
+```
+Install Helm
+## Step 3 — Install Helm
+
+Verify:
+
+```bash
+helm version
+```
+Install Prometheus + Grafana
+## Step 4 — Install Prometheus & Grafana
+
+Add repository:
+
+```bash
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+```
+
+```bash
+helm repo update
+```
+
+Install stack:
+
+```bash
+helm install monitoring prometheus-community/kube-prometheus-stack
+```
+Access Grafana
+## Step 5 — Access Grafana
+
+Port forward:
+
+```bash
+kubectl port-forward svc/monitoring-grafana 3000:80
+```
+
+Open:
+
+```text
+http://localhost:3000
+```
+
+Get password:
+
+```bash
+kubectl get secret monitoring-grafana -o jsonpath="{.data.admin-password}" | base64 --decode
+```
+Install Loki
+## Step 6 — Install Loki
+
+Add repo:
+
+```bash
+helm repo add grafana https://grafana.github.io/helm-charts
+```
+
+```bash
+helm repo update
+```
+
+Install Loki:
+
+```bash
+helm install loki grafana/loki-stack
+```
+Install Ollama
+## Step 7 — Install Ollama
+
+Install Ollama application.
+
+Pull model:
+
+```bash
+ollama pull phi3:mini
+```
+
+Verify:
+
+```bash
+ollama list
+```
+Install Python Dependencies
+## Step 8 — Install Python Dependencies
+
+Create virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate:
+
+### Git Bash
+
+```bash
+source venv/Scripts/activate
+```
+
+### PowerShell
+
+```powershell
+venv\\Scripts\\activate
+```
+
+Install packages:
+
+```bash
+pip install chromadb sentence-transformers langchain ollama requests kubernetes
+```
+Start Services
+## Step 9 — Start Required Services
+
+Start Ollama:
+
+```bash
+ollama serve
+```
+
+Start Grafana:
+
+```bash
+kubectl port-forward svc/monitoring-grafana 3000:80
+```
+
+Start Prometheus:
+
+```
+Run AI Monitor
+## Step 10 — Run AI Monitor
+
+```bash
+python monitor.py
+```
+
+Expected:
+
+```text
+Starting AI AIOps Monitor...
+```
+
+
+Testing & Verification
+## Step 11 — Verification Tests
+
+### Test CrashLoopBackOff
+
+```bash
+kubectl set image deployment my-app my-app=nginx:wrongtag
+```
+
+Expected:
+- incident generated
+- AI analysis created
+- email alert received
+- remediation triggered
+
+---
+
+### Test Pod Restart
+
+```bash
+kubectl exec -it <pod-name> -- sh -c "kill 1"
+```
+
+Expected:
+- restart detected
+- incident stored
+- AI RCA generated
+
+---
+
+### Test RAG Memory
+
+Trigger same issue twice.
+
+Expected:
+- AI references previous incidents
+```

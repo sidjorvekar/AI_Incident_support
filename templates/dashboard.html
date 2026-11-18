@@ -1,0 +1,28 @@
+<html>
+
+<head>
+<title>AI Incident Dashboard</title>
+</head>
+
+<body>
+
+<h1>AI Incident Dashboard</h1>
+
+{% for incident in incidents %}
+
+<div style="border:1px solid black;padding:10px;margin:10px;">
+
+<h2>{{ incident.pod }}</h2>
+
+<p>Status: {{ incident.status }}</p>
+
+<p>Namespace: {{ incident.namespace }}</p>
+
+<pre>{{ incident.analysis }}</pre>
+
+</div>
+
+{% endfor %}
+
+</body>
+</html>
